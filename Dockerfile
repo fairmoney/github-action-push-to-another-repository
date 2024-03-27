@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM public.ecr.aws/docker/library/alpine:latest
 
 RUN apk add --no-cache git git-lfs openssh-client
 
